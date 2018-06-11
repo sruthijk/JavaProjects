@@ -1,0 +1,17 @@
+import java.util.*;
+
+public class ArrayList {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		List<Integer> a =   (List<Integer>) new ArrayList();
+		a.add(1);
+		a.add(1);
+		a.add(1);
+		a.add(1);
+		a.remove(1);
+		
+		
+	}
+
+}
