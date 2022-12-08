@@ -17,7 +17,7 @@ public class AddCustomerTest extends BaseClass {
 
 	@Test(dataProvider="getData")
 	public void addCustomer(String firstname,String lastname,String postcode) {
-		driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);	
+		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);	
 
 		
 		WebElement add_customerBtn = driver.findElement(By.cssSelector(objectRepo.getProperty("add_customerBtn")));
